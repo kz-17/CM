@@ -1,10 +1,27 @@
-## (一)
-1. 點(1, 1)  
-   <img width="556" height="413" alt="image" src="https://github.com/user-attachments/assets/bb2d2e33-5b6d-4dc8-9f32-81edaa9f19f0" />  
-2. 因為直線由兩點所構成，所以設一條直線從(0,0)到(1, 1)  
-   <img width="547" height="413" alt="image" src="https://github.com/user-attachments/assets/b65310b5-c7a5-460c-aa7c-01847382a295" />
-3. 圓的角度為180 * 2=pi * 2=360，畫出單位圓(直徑為1)，X座標為cos(角度)、y座標為sin(角度)，圓為X、y在角度為0到360所構成的圖形
-   <img width="568" height="413" alt="image" src="https://github.com/user-attachments/assets/0e0f076b-aff3-41c2-82ba-14ffd558581e" />
+(1) 直線交點
 
-## (二)
+解二元一次方程組 → 線性代數的克拉瑪法則。
 
+(2) 圓交點
+
+從幾何出發，兩圓的交點在「兩圓中心連線的垂直平分線附近」，推導使用向量、勾股定理。
+其實是一個幾何版的「解二元二次方程」。
+
+(3) 線與圓交點
+
+線 → 參數式
+代入圓 → 得一元二次方程
+使用判別式判斷是否相交。
+
+(4) 垂足
+
+垂足是在直線上，且點向量到垂足向量與直線方向向量正交。
+用投影公式可直接求出。
+
+(5) 變換（平移、縮放、旋轉）
+ 線性代數與仿射變換（affine transform）：
+
+
+
+
+所有幾何物件都可用矩陣乘法處理。

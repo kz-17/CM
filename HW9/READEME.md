@@ -51,4 +51,5 @@ V：在輸入空間中找出最佳方向
 U：伸縮後的方向  
 ### 10.主成分分析是什麼？和 SVD 分解有何關係？
 ### 答:
-PCA = covariance matrix 的 SVD
+PCA = covariance matrix 的 SVD  
+(使用ChatGPT)

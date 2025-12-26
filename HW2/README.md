@@ -14,4 +14,5 @@ True
 
 eq2 root: ((3+0j), (-1+0j))
 False
-0j 0j
+0j 0j  
+(原創)

@@ -1,0 +1,12 @@
+# 簡介
+- IMDB情緒分析資料集是NLP領域中的入門，從IMDB網站抽取的電影評論
+- 以**正面(positive)**、**負面(negative)**方式標註
+- 50000條電影評論，25000條用於訓練、驗證，25000條用於測試
+- 資料來源:https://ai.stanford.edu/~amaas/data/sentiment/
+# 用到的數學
+### 線性代數
+詞嵌入（Embedding):詞 → 向量  
+RNN / LSTM / GRU :hₜ​=tanh(wₕxₜ+Uₕ(rₜ⊙hₜ₋₁))  
+全連接層:y=Wx+b  
+### 非線性函數
+Sigmoid : σ(x)=1/1+e^(-x)，最後二分類

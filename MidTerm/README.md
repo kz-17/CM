@@ -15,4 +15,5 @@
 RNN / LSTM / GRU :hₜ​=tanh(wₕxₜ+Uₕ(rₜ⊙hₜ₋₁))  
 全連接層:y=Wx+b  
 ### 非線性函數
-Sigmoid : σ(x)=1/1+e^(-x)，最後二分類
+Sigmoid : σ(x)=1/1+e^(-x)，最後二分類  
+(原本就有在學Pytorch，所以對pytorch比較熟悉，所以用經典題目IMDB，有參考pytorch書籍)
